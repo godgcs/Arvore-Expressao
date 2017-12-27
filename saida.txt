@@ -1,0 +1,72 @@
+************ Expressao 1 ************
+
+Expressão: 5 5 + 6 *
+O resultado da expressão é: 60.00
+
+Impressão PosOrdem: 
+5 5 + 6 * 
+Impressão PreOrdem: 
+* + 5 5 6 
+Impressão InOrdem: 
+(5 + 5 )* 6 
+*********** ************* ***********
+************ Expressao 2 ************
+
+Expressão: 5 5 * 8 +
+O resultado da expressão é: 33.00
+
+Impressão PosOrdem: 
+5 5 * 8 + 
+Impressão PreOrdem: 
++ * 5 5 8 
+Impressão InOrdem: 
+5 * 5 + 8 
+*********** ************* ***********
+************ Expressao 3 ************
+
+Expressão: 6 5 4 3 + + *
+O resultado da expressão é: 72.00
+
+Impressão PosOrdem: 
+6 5 4 3 + + * 
+Impressão PreOrdem: 
+* 6 + 5 + 4 3 
+Impressão InOrdem: 
+6 * (5 + 4 + 3 )
+*********** ************* ***********
+************ Expressao 4 ************
+
+Expressão: 3 4 + 5 + 6 *
+O resultado da expressão é: 72.00
+
+Impressão PosOrdem: 
+3 4 + 5 + 6 * 
+Impressão PreOrdem: 
+* + + 3 4 5 6 
+Impressão InOrdem: 
+(3 + 4 + 5 )* 6 
+*********** ************* ***********
+************ Expressao 5 ************
+
+Expressão: 6 5 4 3 2 + / + *
+O resultado da expressão é: 34.80
+
+Impressão PosOrdem: 
+6 5 4 3 2 + / + * 
+Impressão PreOrdem: 
+* 6 + 5 / 4 + 3 2 
+Impressão InOrdem: 
+6 * (5 + 4 / (3 + 2 ))
+*********** ************* ***********
+************ Expressao 6 ************
+
+Expressão: 6 5 4 + 3 2 + / *
+O resultado da expressão é: 10.80
+
+Impressão PosOrdem: 
+6 5 4 + 3 2 + / * 
+Impressão PreOrdem: 
+* 6 / + 5 4 + 3 2 
+Impressão InOrdem: 
+6 * (5 + 4 )/ (3 + 2 )
+*********** ************* ***********
